@@ -1,0 +1,41 @@
+{
+   "description": {
+      "message": "Pour vous permettre de surfer des sites internets bloquant les visiteurs en dehors de la Chine continentale."
+   },
+   "feedback": {
+      "message": "Si vous avez encore des questions, n'h\u00E9sitez pas \u003Ca href=\"mailto:unblock-youku-popup@zhuzhu.org\" target=\"_blank\"\u003Enous contacter\u003C/a\u003E."
+   },
+   "help": {
+      "message": "Pour les informations sur les modes diff\u00E9rents en d\u00E9taill\u00E9, vous pouvez \u003Ca href=\"http://ub.uku.im/modes\" target=\"_blank\"\u003Elire celui-ci\u003C/a\u003E."
+   },
+   "mode_lite": {
+      "message": "L\u00E9ger"
+   },
+   "mode_lite_description": {
+      "message": "rapide, mais applicable qu'\u00E0 \u003Cabbr title=\"Xiami, Ku6 and Xunlei\"\u003Equelques sites internet\u003C/abbr\u003E."
+   },
+   "mode_normal": {
+      "message": "Normale"
+   },
+   "mode_normal_description": {
+      "message": "Recommand\u00E9. Applicable aux plupart de sites internets."
+   },
+   "mode_redirect": {
+      "message": "Rediriger"
+   },
+   "mode_redirect_description": {
+      "message": "Lent, mais compatible avec les autres configurations de proxy."
+   },
+   "mode_select": {
+      "message": "S\u00E9lectionner la mode"
+   },
+   "popup_title": {
+      "message": "D\u00E9bloquer la configuration Youku"
+   },
+   "rating": {
+      "message": "Si vous trouvez cette extension utile, \u003Ca href=\"http://ub.uku.im/reviews\" target=\"_blank\"\u003Eveuillez nous aider de donner votre remarques\u003C/a\u003E."
+   },
+   "sharing": {
+      "message": "Soyez bienvenu de le partager vers"
+   }
+}

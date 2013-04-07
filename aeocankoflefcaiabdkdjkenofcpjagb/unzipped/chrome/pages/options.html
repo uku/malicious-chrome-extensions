@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Options for Unblock Youku</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-2.2.1.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/options.css"/>
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-2.2.1.min.js"></script>
+        <script type="text/javascript" src="js/options.js"></script>
+        <script type="text/javascript" src="js/analytics.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="span6 offset3">
+                    <form id="form_custom_server" action="#">
+                        <legend>Custom backend server for Redirection Mode</legend>
+                        <div class="input-prepend input-append">
+                            <span class="add-on">http://</span>
+                            <input class="input-large" id="custom_server" type="text">
+                            <span class="add-on">?url=</span>
+                        </div>
+                        <div class="form-actions">
+                            <button type="button" class="btn" id="reset">Reset to Default</button>
+                            <button type="button" class="btn" id="test">Test</button>
+                            <button type="button" class="btn" id="save">Save</button>
+                        </div>
+                    </form>
+                    <div id="message"></div>
+                </div>
+            </div>
+        </div>  <!-- container -->
+    </body>
+</html>
+

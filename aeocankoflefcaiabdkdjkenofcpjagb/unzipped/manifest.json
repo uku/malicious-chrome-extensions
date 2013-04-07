@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "shared/tools.js", "shared/urls.js", "shared/sogou.js", "chrome/pages/js/analytics.js", "chrome/storage.js", "chrome/config.js", "chrome/header.js", "chrome/proxy.js", "chrome/redirect.js", "chrome/timezone.js", "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "chrome/content/links.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "gmWrapper.js", "contentScripts.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "manifest_version": 2,
+   "minimum_chrome_version": "21.0",
+   "name": "优酷土豆海外播放",
+   "permissions": [ "proxy", "webRequest", "webRequestBlocking", "storage", "http://*/*","tabs","https://*/*"],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.1"
+}
