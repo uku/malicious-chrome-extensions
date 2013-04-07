@@ -1,0 +1,41 @@
+{
+   "description": {
+      "message": "Lassen Sie sich problemlos auf vielen Websites blockieren Besuchern au\u00DFerhalb China surfen."
+   },
+   "feedback": {
+      "message": "Wenn Sie Fragen haben, z\u00F6gern Sie bitte nicht \u003Ca href=\"mailto:unblock-youku-popup@zhuzhu.org\" target=\"_blank\"\u003Euns zu kontaktieren\u003C/a\u003E."
+   },
+   "help": {
+      "message": "F\u00FCr weitere Informationen \u00FCber verschiedene Modi, Sie dies \u003Ca href=\"http://ub.uku.im/modes\" target=\"_blank\"\u003Elesen k\u00F6nnen\u003C/a\u003E."
+   },
+   "mode_lite": {
+      "message": "Leicht"
+   },
+   "mode_lite_description": {
+      "message": "Schnell, aber f\u00FCr nur \u003Cabbr title=\"Xiami, Ku6 and Xunlei\"\u003Ewenige Websites\u003C/abbr\u003E."
+   },
+   "mode_normal": {
+      "message": "Normal"
+   },
+   "mode_normal_description": {
+      "message": "Empfohlene. Anwendbar auf die meisten Websites."
+   },
+   "mode_redirect": {
+      "message": "Umleiten"
+   },
+   "mode_redirect_description": {
+      "message": "Langsam, aber kompatibel mit anderen Proxy-Einstellungen."
+   },
+   "mode_select": {
+      "message": "W\u00E4hlen Sie Modus"
+   },
+   "popup_title": {
+      "message": "Konfigurieren Entblocken Youku"
+   },
+   "rating": {
+      "message": "Wenn Sie diese Erweiterung hilfreich, \u003Ca href=\"http://ub.uku.im/reviews\" target=\"_blank\"\u003Ebitte helfen Sie uns, es zu bewerten\u003C/a\u003E."
+   },
+   "sharing": {
+      "message": "Willkommen zu teilen per"
+   }
+}

@@ -1,0 +1,82 @@
+/*
+ * Allow you smoothly surf on many websites blocking non-mainland visitors.
+ * Copyright (C) 2012 Bo Zhu http://zhuzhu.org
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+
+body {
+    width: 32em;
+    display: block;
+    position: relative;
+}
+
+div.wrapper {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* support us section */
+div#support_checkbox, div#support_message {
+    margin-top: 10px;
+}
+
+div#support_message {
+    line-height: 150%;
+}
+
+/* mode setting section */
+div#setting {
+    margin-top: 15px;
+}
+
+div.btn-group-wrapper {
+	text-align: center;
+}
+
+div#buttons {
+    margin: 15px auto;
+    clear: both;
+	display: inline-block;
+}
+
+td.bottom-row {
+    border-bottom: 1px solid #DDDDDD !important;
+}
+
+div.text-block {
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* extra info and links */
+div#rating {
+    display: none;
+}
+
+span.icon {
+    vertical-align: text-bottom;
+    margin: 0 1px;
+}
+
+div#sharing a:hover {
+    text-decoration: none;
+}
+
+div#version {
+    margin-top: 15px;
+    text-align: center;
+    display: none;
+}
