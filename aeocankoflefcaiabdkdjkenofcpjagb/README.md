@@ -1,4 +1,8 @@
-Extension ID: aeocankoflefcaiabdkdjkenofcpjagb
+Name: 优酷土豆海外播放
+
+CWS ID: aeocankoflefcaiabdkdjkenofcpjagb
+
+Homepage: `https://chrome.google.com/webstore/detail/%E4%BC%98%E9%85%B7%E5%9C%9F%E8%B1%86%E6%B5%B7%E5%A4%96%E6%92%AD%E6%94%BE/aeocankoflefcaiabdkdjkenofcpjagb`
 
 This is a malicious copy the extension Unblock-Youku (ID: pdnfnkhpgegpcingjbfihlkjeighnddk).
 

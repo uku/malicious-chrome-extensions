@@ -1,4 +1,8 @@
-Extension ID: fmakoabecaggdofhohcdjiaifnkmpldj
+Name: 优酷海外版
+
+CWS ID: fmakoabecaggdofhohcdjiaifnkmpldj
+
+Homepage: `https://chrome.google.com/webstore/detail/%E4%BC%98%E9%85%B7%E6%B5%B7%E5%A4%96%E7%89%88/fmakoabecaggdofhohcdjiaifnkmpldj`
 
 This is a malicious copy the extension Unblock-Youku (ID: pdnfnkhpgegpcingjbfihlkjeighnddk).
 
