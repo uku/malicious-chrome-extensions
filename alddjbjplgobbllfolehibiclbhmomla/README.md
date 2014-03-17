@@ -1,3 +1,10 @@
+Name: 优酷一键通
+
+ID: alddjbjplgobbllfolehibiclbhmomla
+
+Homepage: `https://chrome.google.com/webstore/detail/%E4%BC%98%E9%85%B7%E4%B8%80%E9%94%AE%E9%80%9A/alddjbjplgobbllfolehibiclbhmomla`
+
+
 The file jquery.min.js included in this extension is modified from the official one.
 
 It is appended with a piece of obfuscated and suspicious code as follows.
