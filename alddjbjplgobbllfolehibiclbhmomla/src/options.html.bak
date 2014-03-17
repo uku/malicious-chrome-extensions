@@ -1,0 +1,57 @@
+<html><head>
+<meta charset="UTF-8">
+<title>优酷一键通－选项</title>
+<style type="text/css">
+body{
+background:#EEE;
+}
+button{
+padding:3px 20px;
+border-width:0;
+border-radius:16px;
+color:white;
+cursor:hand;
+position:relative;
+cursor:pointer;
+}
+button:active{
+left:1px;
+top:1px;
+padding:2px 21px 4px 19px;
+}
+#save{
+display:block;
+margin:10px auto;
+width:100px;
+box-shadow:0 8px 4px rgba(0,0,192,0.5);
+background-image:-webkit-gradient(linear,0% 0%,0% 90%,from(rgba(0,0,80,0.5)),to(rgba(0,0,256,0.9)));
+background-image:-moz-linear-gradient(top,rgba(0,0,80,0.5),rgba(0,0,256,0.9));
+}
+#container{
+margin:140px auto 20px auto;
+width:500px;
+padding:20px 30px 30px 30px;
+}
+#container h2{
+margin:0 auto;
+width:230px;
+}
+</style>
+<script src="options.js">
+</script>
+</head>
+<body>
+<div id="container">
+<h2>优酷广告屏蔽</h2>
+<p>刷新播放页面两次后生效<p/>
+<hr>
+
+<h3 style="margin-top:30px;"></h3>
+<input style="margin-left:120px;" id="haiwai" checked="checked" type="radio" onclick="saveGoogle();" name="sotapit">屏蔽广告
+<span style="display:inline-block;width:20px; height:20px;"></span> 
+<input id="neidi"  type="radio" name="sotapit" onclick="saveGoogle();">正常播放
+
+</div>
+
+
+</body></html>

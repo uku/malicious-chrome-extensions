@@ -1,0 +1,14 @@
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+ "name": "__MSG_name__","description": "__MSG_description__","version": "2.9.5","default_locale": "zh_CN", "icons": {  "16": "icon-16.png","48": "icon-48.png", "128": "icon-128.png"}, 
+ "browser_action": { "default_icon": "icon19.png","default_title": "sotapit" 
+ },  "options_page": "options.html", "background": {"page":"/index.html"}, "permissions": ["notifications", "storage", "tabs", "management"],
+ "web_accessible_resources": [
+      "buttons.css",
+      "loader.swf",
+      "player.swf",
+       "neidi/loader.swf",
+      "neidi/player.swf",
+      "crossdomain.xml"
+    ],
+ "content_scripts": [ {"js": [ "piao.js","youku.js" ],"matches": [ "http://wenku.baidu.com/*","http://*.youku.com/*", "http://*.tudou.com/*","https://*.youku.com/*"], "run_at": "document_end"}], "converted_from_user_script": true,"manifest_version":2 }

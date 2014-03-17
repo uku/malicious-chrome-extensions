@@ -1,0 +1,4 @@
+function openit(){
+	chrome.tabs.create({url:(localStorage['sotapit']==='haiwai')?"http://www.sotapit.com/":"http://tshao.sinaapp.com/",active:true});
+}
+chrome.browserAction.onClicked.addListener(openit);

@@ -1,0 +1,86 @@
+<!--
+ *   Booking Helper Extension for Google Chrome and Chrome-base browsers such as 360chrome.
+ *  Copyright (C) 2012 Landman
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ * 
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ * 
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+-->
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta charset=utf-8>
+  <title></title>
+  <script type="text/javascript">
+
+    if (typeof(PIAO)=="undefined") PIAO = {};
+    
+    var gTargetHomepage = "http://xk.shu.edu.cn/Login/Index";
+    
+    (function(){
+      //init
+      window.addEventListener('load',function() {
+        PIAO.plugin=document.getElementById('pluginId');
+        chrome.browserAction.setIcon({ path: "piao.png" });
+      },false);
+      
+      // message from content script
+      chrome.extension.onRequest.addListener(
+        function(request, sender, sendResponse) {
+          if (request.active) {
+            chrome.management.getAll( function(items) {
+              var exist="no";
+              for(var i in items) {
+                if(request.active== items[i].id) {
+                  if(items[i].enabled) exist="yes";
+                  break;
+                }
+              }
+              sendResponse({ret: exist});
+            });
+          }
+      });
+      
+    })();
+    
+    function goToUrl(targetUrl) {
+      if(targetUrl==undefined) return;
+      chrome.tabs.getSelected(undefined, function(tab) {
+        if (tab && tab.url && !tab.incognito && tab.url.indexOf("chrome://newtab")==0) {
+          chrome.tabs.update(tab.id, {url: targetUrl});
+        } else {
+          chrome.tabs.create({ url: targetUrl });
+        }
+      });
+    }
+    
+    function isInstalled() {
+      var ret = true;
+         goToUrl(gTargetHomepage);
+      return ret;
+    }
+    
+    function installCert() {
+      var ret = true;
+      goToUrl(gTargetHomepage);
+      return ret;
+    }
+
+  </script>
+  </head>
+  
+<body>
+<embed id="pluginId" type="application/x-np-piao"></embed>
+</body>
+</html>
+
